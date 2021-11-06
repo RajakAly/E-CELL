@@ -1,0 +1,229 @@
+
+
+*{
+	padding: 0%;
+	margin: 0%;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+body{
+	font-family: sans-serif;
+}
+.navbar {
+	padding-bottom: 2rem;
+}
+.navbar-brand {
+	font-family: sans-serif;
+	font-size: 2.5rem;
+}
+.nav-item {
+	padding: 0 18px;
+}
+
+
+.main {
+	position:relative;
+	background: url(IMAGE/background.jpg);
+	min-height: 100vh;
+	background-size: cover;
+	background-position:center ;
+	padding: 250px 0 22px;
+}
+.container {
+	text-align: center;
+	margin: auto;
+	display: flex;
+}
+.main h1 {
+	font-size: 2.6em;
+    font-family: 'Open Sans', sans-serif;
+	color:#f0f8ff;
+
+	
+	font-weight: bold;
+	width: 50%;
+	margin: 0 auto;
+	
+}
+.main h2{
+	font-size: 2em;
+	 font-family: 'Open Sans', sans-serif;
+	 color:#f0f8ff;
+	 width: 50%;
+	 margin: 0 auto;
+}
+.start-button{
+	margin: 5% 3% 5% 0%;
+	position: relative;
+}
+
+
+	
+#Vision {
+	padding: 5% 5% 5% 5% ;
+	background-color: #faf1d3;
+}
+.feature-box {
+	text-align: center;
+	
+}
+.feature-box:hover{
+	color: red;
+}
+.icon {
+	color: #BF3EFF;
+	margin-bottom: 1rem;
+	padding:20% 20% 0%;
+}
+.icon:hover{
+
+	color: #707B7C;
+}
+
+
+#Initiatives {
+	padding: 5% 0%;
+	background: #343434;
+	color: rgb(255, 255, 255);
+}
+
+.box {
+	background: #acacac;
+}
+.box:hover{
+	transform: scale(o.9);
+	background: blue;
+	color: #000;
+	
+
+}
+
+ 
+ #Team{
+    background: #BF3EFF;
+	padding: 10%;
+}
+ 
+.our-team{
+    padding: 20px 15px 30px;
+    background: #fff;
+    border-radius: 15px;
+    text-align: center;
+}
+.our-team .pic{
+    display: inline-block;
+    width: 50%;
+    height: 50%;
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 25px;
+    transition: all 0.5s ease 0s;
+}
+.our-team:hover .pic{
+    background: #BF3EFF;
+    border-radius: 50%;
+}
+.pic img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+.our-team .title{
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    color: #2e282a;
+    text-transform: uppercase;
+    margin: 0 0 7px 0;
+}
+.our-team .post{
+    display: block;
+    font-size: 15px;
+    color: #BF3EFF;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+.our-team .social{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.our-team .social li{
+    display: inline-block;
+    margin-right: 5px;
+}
+.our-team .social li a{
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    font-size: 15px;
+    color: #BF3EFF;
+    border: 1px solid #BF3EFF;
+    transition: all 0.5s ease 0s;
+}
+.our-team:hover .social li a{
+    background: #BF3EFF;
+    color: #fff;
+}
+@media only screen and (max-width: 990px){
+    .our-team{ margin-bottom: 30px; }
+}
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #f9eca0;
+	background:linear-gradient(to bottom, #f0c911 5%, #f2ab1e 100%);
+	background-color:#f0c911;
+	border-radius:6px;
+	border:1px solid #e65f44;
+	display:inline-block;
+	cursor:pointer;
+	color:#c92200;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:10px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ded17c;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #f2ab1e 5%, #f0c911 100%);
+	background-color:#f2ab1e;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+.other {
+	
+	color:#BF3EFF;
+	padding: 1em 1.5em;
+	text-decoration: none;
+
+  }
+  .other:hover {
+	cursor: pointer;
+	color: #acacac;
+  }
+
+  #footer {
+	padding: 5% 5% 5% 5% ;
+	background-color:#faf1d3;;
+}
+ .footer-box {
+	text-align: center;
+	
+}
+
+.foot {
+	color: #5252ff;
+}
+.foot:hover{
+	color: #ff5252;
+}
+/* #footer p {
+	color: #BF3EFF;
+} */
+  
